@@ -25,6 +25,9 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit RenLinux
+$(call inherit-product, vendor/renlinux/renlinux.mk)
+
 TARGET_DISABLE_EPPE := true
 WITH_GMS := true
 EVO_BUILD_TYPE := Unofficial
